@@ -21,7 +21,7 @@ public class Employees implements Serializable {
     @Column(name = "dob")
     private String dob;
 
-    @Column(name = "phoneNumber", nullable = true)
+    @Column(name = "phone_number", nullable = true)
     private String phoneNumber;
 
     @Column(name = "hobbies",nullable = true)
